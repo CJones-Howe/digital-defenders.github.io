@@ -1,18 +1,5 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gary McKinnon: The UFO Hacker</title>
-</head>
 <body>
     <h1>Gary McKinnon: The UFO Hacker</h1>
-	<div class="navbar">
-        <a href="recon.html">Introduction and Reconaissance</a>
-        <a href="#TheHack">Execution and Lateral Movement</a>
-        <a href="#Apprehension">Apprehension and Legal Battle</a>
-        <a href="#Significance">Attack Significance</a>
-        <a href="#Citations">Citations and Conclusion</a>
-    </div>
     <p class="accent-text hover-effect">An exploration of Gary McKinnon's hacking exploits by Team 4.</p>
 	<div class="clearfix"></div>
 	<div class="content-container">
