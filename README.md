@@ -3,38 +3,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gary McKinnon: The UFO Hacker</title>
-	<link rel="stylesheet" href="index0.css">
-    <style>
-        body {
-            background-color: #0A0A0A;
-            color: #FFFFFF;
-            font-family: 'Roboto', sans-serif;
-        }
-        h1, h2 {
-            font-family: 'Orbitron', sans-serif;
-            color: #32CD32;
-        }
-        .accent-text {
-            color: #8A2BE2;
-        }
-        .hover-effect:hover {
-            color: #FFD700;
-            transition: 0.3s;
-        }
-        .navbar {
-            background-color: #1E1E1E;
-            padding: 10px;
-        }
-        .navbar a {
-            color: #FFFFFF;
-            text-decoration: none;
-            margin: 0 15px;
-            font-family: 'Orbitron', sans-serif;
-        }
-        .navbar a:hover {
-            color: #32CD32;
-        }
-    </style>
 </head>
 <body>
     <h1>Gary McKinnon: The UFO Hacker</h1>
