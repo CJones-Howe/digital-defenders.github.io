@@ -1,6 +1,6 @@
 body {
     background: url('stars.jpg.') no-repeat center center fixed;;
-    color: #FFFFFF;
+    color: "black";
     font-family: 'Roboto', sans-serif;
 }
 body::before {
