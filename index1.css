@@ -1,5 +1,5 @@
 body {
-    background: url('root/stars.jpg') no-repeat center center fixed;;
+    background: url('stars.jpg') no-repeat center center fixed;;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
@@ -15,6 +15,7 @@ body::before {
     opacity: 0.7;
     z-index: -1;
 }
+
 .navbar {
     background-color: rgba(30, 30, 30, 0.8);
     padding: 10px;
@@ -37,4 +38,73 @@ body::before {
     color: #FFD700;
     text-shadow: 0 0 10px #FFD700;
     transition: text-shadow 0.3s;
+}
+
+.accent-text {
+    color: #32CD32;
+    text-shadow: 0 0 10px #32CD32;
+}
+
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #32CD32;
+    text-shadow: 0 0 5px #32CD32;
+}
+
+.button {
+    background-color: #32CD32;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+    background-color: #FFD700;
+    box-shadow: 0 0 10px #FFD700;
+}
+
+.section {
+    padding: 50px;
+    margin: 20px 0;
+    background-color: rgba(30, 30, 30, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.clearfix {
+    clear: both;
+}
+
+.Overview {
+    width: 50%; 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+}
+
+.headshot {
+    text-align: right;
+    margin: 20px 0;
+}
+
+.headshot-image {
+    width: 500px;
+    height: flex;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	margin-right: 30px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
 }
