@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restricted Access</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #message {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Access Restricted</h2>
+        <p>Please answer the question to gain access:</p>
+        <label for="answer">What did Gary say about the Government's security?</label><br>
+        <input type="text" id="answer" name="answer" placeholder="Your answer"><br>
+        <button onclick="verifyAnswer()">Submit</button>
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function verifyAnswer() {
+            var userAnswer = document.getElementById("answer").value.trim().toLowerCase();
+            var message = document.getElementById("message");
+
+            if (userAnswer === "your security sucks") { // changed the answer here
+                // Redirect to the secret page
+                window.location.href = "citations.html"; // Change this URL as needed.
+            } else {
+                message.textContent = "Incorrect answer. Try reviewing the site!.";
+            }
+        }
+    </script>
+</body>
+</html>
